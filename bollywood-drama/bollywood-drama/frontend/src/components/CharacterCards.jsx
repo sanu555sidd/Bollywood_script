@@ -7,7 +7,7 @@ export function CharacterCards({ characters }) {
 
   return (
     <div className="characters-section">
-      <h3>CAST OF CHARACTERS</h3>
+      <h3>CAST OF CHARACTERS !</h3>
       <div className="characters-grid">
         {characters.map((char, i) => (
           <div key={i} className="character-card">
